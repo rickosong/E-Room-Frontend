@@ -1,0 +1,69 @@
+body {
+	background-color: whitesmoke;
+}
+
+li.nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+li.nav-item:hover {
+	transition: 0.5s;
+	font-size: 18px;
+	text-shadow: 2px 1px whitesmoke;
+}
+
+a.navbar-brand:hover {
+	transition: 0.5s;
+	text-shadow: 3px 2px 1px white;
+}
+
+.carousel img {
+	margin-top: 50px;
+	height: 80vh;
+}
+
+.card {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.card:hover {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	transition: 0.5s;
+}
+
+.price {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: rgb(253, 80, 0);
+}
+
+.maps {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+
+/* .btn-card-info {
+	position: absolute;
+	bottom: 10px;
+}
+
+.btn-card-buy {
+	position: absolute;
+	bottom: 10px;
+	left: 165px;
+} */
+
+.footer {
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 100px;
+}
+
+.footer p {
+	color: white;
+	/* text-align: center; */
+	font-size: 14px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/adminpagestyle.css" />
+		<title>Admin Page</title>
+	</head>
+	<body>
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="landingpage.html">Selamat Datang Admin | <span class="font-weight-bold">Website UMKM</span></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="landingpage.html"><img src="../img/photo example.jpg" alt="" class="rounded-circle" width="35" height="35" /><span class="sr-only"></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- navbar end -->
+
+		<!-- sidebar -->
+		<div class="row no-gutters mt-3">
+			<div class="col-md-2 bg-dark mt-5 pr-4 pt-4">
+				<ul class="nav flex-column ml-4 mb-5">
+					<li class="nav-item">
+						<a class="nav-link active text-white mr-2" href="# ">Dashboard</a>
+						<hr class="bg-secondary" />
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white-50 mr-2" href="#">Pemesanan Produk</a><hr class="bg-secondary" />
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white-50 mr-2" href="#">Barang</a></a><hr class="bg-secondary" />
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white-50 mr-2" href="#">Profil</a></a><hr class="bg-secondary" />
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-md-10">       <!-- card -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div class="card h-auto">
+                                <img src="../img/klorofil.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title m-1">Synergy Cholorophyle</h5>
+                                    <h6 class="price">RP. 60.000</h4>
+                                    <a href="#" class="btn btn-primary btn-card-info" data-toggle="modal" data-target="#infoModal">Info Selengkapnya</a>
+                                    <a href="#" class="btn btn-success btn-card-buy" data-toggle="modal" data-target="#buyModal">Beli</a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div class="card h-auto">
+                                <img src="../img/goji.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title m-1">Goji Juice Fruit</h5>
+                                    <h6 class="price">RP. 400.000</h4>
+                                    <a href="#" class="btn btn-primary btn-card-info" data-toggle="modal" data-target="#infoModal">Info Selengkapnya</a>
+                                    <a href="#" class="btn btn-success btn-card-buy" data-toggle="modal" data-target="#buyModal">Beli</a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div class="card h-auto">
+                                <img src="../img/mistica.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title m-1">Mistica</h5>
+                                    <h6 class="price">RP. 900.000</h4>
+                                    <a href="#" class="btn btn-primary btn-card-info" data-toggle="modal" data-target="#infoModal">Info Selengkapnya</a>
+                                    <a href="#" class="btn btn-success btn-card-buy" data-toggle="modal" data-target="#buyModal">Beli</a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div class="card">
+                                <img src="../img/oil.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title m-1">Peppermint Oil</h5>
+                                    <h6 class="price">RP. 700.000</h4>
+                                    <a href="#" class="btn btn-primary btn-card-info" data-toggle="modal" data-target="#infoModal">Info Selengkapnya</a>
+                                    <a href="#" class="btn btn-success btn-card-buy" data-toggle="modal" data-target="#buyModal">Beli</a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div class="card">
+                                <img src="../img/colostrum.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title m-1">Colostrum</h5>
+                                    <h6 class="price">RP. 160.000</h4>
+                                    <a href="#" class="btn btn-primary btn-card-info" data-toggle="modal" data-target="#infoModal">Info Selengkapnya</a>
+                                    <a href="#" class="btn btn-success btn-card-buy" data-toggle="modal" data-target="#buyModal">Beli</a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div class="card">
+                                <img src="../img/masker spirulina.jpg" class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title m-1">Masker Spirulina</h5>
+                                    <h6 class="price">RP. 950.000</h4>
+                                    <a href="#" class="btn btn-primary btn-card-info" data-toggle="modal" data-target="#infoModal">Info Selengkapnya</a>
+                                    <a href="#" class="btn btn-success btn-card-buy" data-toggle="modal" data-target="#buyModal">Beli</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card end --></div>
+		</div>
+		<!-- sidebar end -->
+
+ 
+
+		<!-- jQuery -->
+		<script src="../js/jquery-4.5.1.js"></script>
+		<script src="../js/jquery-4.6.0.min.js"></script>
+		<script src="../js/popper.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<!-- jQuery end -->
+	</body>
+</html>
