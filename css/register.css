@@ -69,10 +69,20 @@ body {
 
 h2 {
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 50px;
 	color: black;
 	text-align: center;
 	font-family: poppins-bold;
+}
+
+@media screen and (min-width: 1200px) {
+	h2 {
+		font-weight: 700;
+		font-size: 60px;
+		color: black;
+		text-align: center;
+		font-family: poppins-bold;
+	}
 }
 
 .form-container {
