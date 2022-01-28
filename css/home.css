@@ -42,7 +42,7 @@ a.navbar-brand:hover {
 
 .carousel img {
 	margin-top: 50px;
-	height: 80vh;
+	height: 100vh;
 }
 
 .card {
@@ -94,4 +94,14 @@ a img {
 	width: 50px;
 	height: 50px;
 	margin-top: -15px;
+}
+
+.btn-card-info {
+	background-color: #ff5722;
+	color: white;
+}
+
+h5.click-postingan a {
+	text-decoration: none;
+	color: black;
 }
