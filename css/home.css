@@ -40,6 +40,11 @@ a.navbar-brand:hover {
 	text-shadow: 3px 2px 1px white;
 }
 
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+/* navbar enda */
+
 .carousel img {
 	margin-top: 50px;
 	height: 100vh;
