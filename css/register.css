@@ -39,12 +39,12 @@ body {
 	color: #ffffff;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1010px) {
 	.kanan img {
 		position: absolute;
 		width: 337px;
 		height: 339px;
-		left: 70px;
+		left: 160px;
 		top: 70px;
 		display: block;
 	}
@@ -54,7 +54,6 @@ body {
 		width: 450px;
 		height: 300px;
 		top: 450px;
-
 		font-family: Poppins-bold;
 		font-style: normal;
 		font-weight: bold;
