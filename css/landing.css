@@ -39,71 +39,10 @@ a.navbar-brand:hover {
 	transition: 0.5s;
 	text-shadow: 3px 2px 1px white;
 }
-
-.carousel img {
-	margin-top: 50px;
-	height: 100vh;
-}
-
-.card {
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.card:hover {
-	margin-top: 20px;
-	margin-bottom: 50px;
-	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
-	transition: 0.5s;
-}
-
-.price {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: rgb(253, 80, 0);
-}
-
-.maps {
-	margin-top: 60px;
-	margin-bottom: 100px;
-}
-
-/* .btn-card-info {
-	position: absolute;
-	bottom: 10px;
-}
-
-.btn-card-buy {
-	position: absolute;
-	bottom: 10px;
-	left: 165px;
-} */
-
-.footer {
-	background-color: rgba(0, 0, 0, 0.8);
-	height: 100px;
-}
-
-.footer p {
-	color: white;
-	/* text-align: center; */
-	font-size: 14px;
-}
-
 a img {
 	width: 35px;
 	height: 35px;
 	margin-top: -5px;
-}
-
-.btn-card-info {
-	background-color: #ff5722;
-	color: white;
-}
-
-h5.click-postingan a {
-	text-decoration: none;
-	color: black;
 }
 
 .tombolabu {
@@ -123,3 +62,115 @@ h5.click-postingan a {
 .nav-link {
 	margin-top: -10px;
 }
+
+/* carousel start */
+.carousel img {
+	margin-top: 50px;
+	height: 100vh;
+}
+
+.carousel img {
+	margin-top: 50px;
+	height: 100vh;
+}
+
+.carousel-caption {
+	margin-bottom: 200px;
+}
+
+.carousel-caption h1 {
+	font-weight: 700;
+	font-size: 60px;
+	font-family: poppins-bold;
+}
+/* carousel end */
+
+/* card start */
+.card {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.card:hover {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+	transition: 0.5s;
+}
+
+.price {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: rgb(253, 80, 0);
+}
+
+.btn-card-info {
+	background-color: #ff5722;
+	color: white;
+}
+
+h5.click-postingan a {
+	text-decoration: none;
+	color: black;
+}
+/* card end */
+
+/* maps start */
+.maps {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+/* maps end */
+
+/* .btn-card-info {
+	position: absolute;
+	bottom: 10px;
+}
+
+.btn-card-buy {
+	position: absolute;
+	bottom: 10px;
+	left: 165px;
+} */
+
+/*footer  start*/
+.card-footer {
+	background-color: #414141;
+	height: 200px;
+}
+
+.card-footer .fa {
+	margin-top: 20px;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.card-footer h3 {
+	color: white;
+	margin-top: 80px;
+}
+
+.card-footer .footer-t {
+	color: white;
+	margin-top: 80px;
+}
+
+.card-footer h6 {
+	color: white;
+	/* margin-left: 270px; */
+}
+
+.card-footer img {
+	width: 40px;
+	height: 40px;
+}
+
+.card-footer p {
+	color: white;
+	margin-top: 110px;
+}
+
+.space {
+	margin-left: 5px;
+}
+/* footer end */

@@ -106,7 +106,7 @@ h5.click-postingan a {
 }
 /* maps end */
 
-/* card-footer */
+/*footer  start*/
 .card-footer {
 	background-color: #414141;
 	height: 200px;
@@ -146,3 +146,4 @@ h5.click-postingan a {
 .space {
 	margin-left: 5px;
 }
+/* footer end */
