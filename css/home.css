@@ -43,6 +43,12 @@ a.navbar-brand:hover {
 .dropdown:hover .dropdown-menu {
 	display: block;
 }
+
+a img {
+	width: 35px;
+	height: 35px;
+	margin-top: -5px;
+}
 /* navbar enda */
 
 /* carousel start */
@@ -63,6 +69,7 @@ a.navbar-brand:hover {
 
 /* carousel end */
 
+/* card start */
 .card {
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -81,39 +88,6 @@ a.navbar-brand:hover {
 	color: rgb(253, 80, 0);
 }
 
-.maps {
-	margin-top: 60px;
-	margin-bottom: 100px;
-}
-
-/* .btn-card-info {
-	position: absolute;
-	bottom: 10px;
-}
-
-.btn-card-buy {
-	position: absolute;
-	bottom: 10px;
-	left: 165px;
-} */
-
-.footer {
-	background-color: rgba(0, 0, 0, 0.8);
-	height: 100px;
-}
-
-.footer p {
-	color: white;
-	/* text-align: center; */
-	font-size: 14px;
-}
-
-a img {
-	width: 35px;
-	height: 35px;
-	margin-top: -5px;
-}
-
 .btn-card-info {
 	background-color: #ff5722;
 	color: white;
@@ -122,4 +96,53 @@ a img {
 h5.click-postingan a {
 	text-decoration: none;
 	color: black;
+}
+/* card end */
+
+/* maps start */
+.maps {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+/* maps end */
+
+/* card-footer */
+.card-footer {
+	background-color: #414141;
+	height: 200px;
+}
+
+.card-footer .fa {
+	margin-top: 20px;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.card-footer h3 {
+	color: white;
+	margin-top: 80px;
+}
+
+.card-footer .footer-t {
+	color: white;
+	margin-top: 80px;
+}
+
+.card-footer h6 {
+	color: white;
+	/* margin-left: 270px; */
+}
+
+.card-footer img {
+	width: 40px;
+	height: 40px;
+}
+
+.card-footer p {
+	color: white;
+	margin-top: 110px;
+}
+
+.space {
+	margin-left: 5px;
 }
