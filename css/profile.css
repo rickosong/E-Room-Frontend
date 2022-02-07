@@ -83,7 +83,7 @@ a img {
 	color: #333;
 }
 .profile-head h6 {
-	color: #0062cc;
+	color: #ff5722;
 }
 
 .proile-rating span {
@@ -128,4 +128,9 @@ a img {
 .profile-tab p {
 	font-weight: 600;
 	color: #ff5722;
+}
+
+.btn-orange {
+	background-color: #ff5722;
+	color: white;
 }
