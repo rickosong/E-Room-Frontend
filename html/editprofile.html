@@ -12,13 +12,16 @@
 	<body>
 		<!--profil start-->
 		<div class="container emp-profile">
-			<form method="post">
+			<form action="" method="post">
 				<div class="row">
 					<div class="col-md-3">
 						<div class="profile-img">
 							<img class="logo" src="../img/person-circle.svg" alt="logo user" title="logo user" />
 							<br />
-							<input type="file" />
+							<br />
+							<label class="custom-file-upload">
+								<input type="file" />
+							</label>
 							<br />
 							<small>Mohon gunakan gambar yang ukurannya 1:1 agar menjadi lebih bagus</small>
 							<br />
@@ -28,23 +31,23 @@
 						<div class="profile-head">
 							<div class="form-group mb-3">
 								<label for="username" class="teks-kolom">Nama Lengkap:</label>
-								<input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Masukkan Nama Anda" />
+								<input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Masukkan Nama Anda" required />
 							</div>
 							<div class="form-group mb-3">
 								<label for="tanggal" class="teks-kolom">Tanggal Lahir:</label>
-								<input type="datetime" class="form-control" id="tanggal" placeholder="Masukkan Password" />
+								<input type="datetime" class="form-control" id="tanggal" placeholder="Masukkan Password" required />
 							</div>
 							<div class="form-group mb-3">
 								<label for="telepon" class="teks-kolom">No. Telepon:</label>
-								<input type="number" class="form-control" id="telepon" placeholder="Masukkan Password" />
+								<input type="number" class="form-control" id="telepon" placeholder="Masukkan Password" required />
 							</div>
 							<div class="form-group mb-3">
 								<label for="email" class="teks-kolom">Email:</label>
-								<input type="email" class="form-control" id="email" placeholder="Masukkan Password" />
+								<input type="email" class="form-control" id="email" placeholder="Masukkan Password" required />
 							</div>
 							<div class="form-group mb-3">
 								<label for="alamat" class="teks-kolom">Alamat:</label><br />
-								<textarea name="" id="alamat" cols="50" rows="3" placeholder="Masukkan Alamat"></textarea>
+								<textarea name="" id="alamat" cols="50" rows="3" placeholder="Masukkan Alamat" required></textarea>
 							</div>
 						</div>
 					</div>
@@ -58,9 +61,9 @@
 										<a href="profile.html" class="btn btn-grey"
 											><span><i class="fa fa-reply" aria-hidden="true"></i></span> Kembali</a
 										>
-										<a class="btn btn-orange" type="submit"
-											><span><i class="fa fa-sign-in" aria-hidden="true"></i></span> Masuk</a
-										>
+										<button class="btn btn-orange" type="submit">
+											<span><i class="fa fa-sign-in" aria-hidden="true"></i></span> Masuk
+										</button>
 									</div>
 								</div>
 							</div>
