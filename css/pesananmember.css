@@ -1,0 +1,110 @@
+@font-face /*perintah untuk memanggil font eksternal*/ {
+	font-family: "poppins"; /*memberikan nama bebas untuk font*/
+	src: url("../font/poppins/Poppins-Regular.ttf"); /*memanggil file font eksternalnya di folder nexa*/
+}
+
+@font-face /*perintah untuk memanggil font eksternal*/ {
+	font-family: "poppins-bold"; /*memberikan nama bebas untuk font*/
+	src: url("../font/poppins/Poppins-Bold.ttf"); /*memanggil file font eksternalnya di folder nexa*/
+}
+
+body {
+	background-color: whitesmoke;
+	font-family: poppins;
+	margin-top: 120px;
+}
+
+.navbar {
+	background-color: #ff5722;
+}
+
+.navbar-brand img {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+li.nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+li.nav-item:hover {
+	transition: 0.5s;
+	font-size: 17px;
+}
+
+a.navbar-brand:hover {
+	transition: 0.5s;
+	text-shadow: 3px 2px 1px white;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+a img {
+	width: 35px;
+	height: 35px;
+	margin-top: -5px;
+}
+/* navbar enda */
+
+/* card */
+.card:hover {
+	box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+	transition: 0.5s;
+}
+
+.btn-orange {
+	background-color: #ff5722;
+	font: poppins;
+	/* padding-top: 10px; */
+	padding-bottom: 10px;
+	color: white;
+}
+/* card end */
+
+/*footer  start*/
+.card-footer {
+	background-color: #414141;
+	height: 200px;
+}
+
+.card-footer .icon {
+	margin-top: 20px;
+	font-size: 18px;
+	margin-right: 25px;
+}
+
+.card-footer h3 {
+	color: white;
+	margin-top: 80px;
+}
+
+.card-footer .footer-t {
+	color: white;
+	margin-top: 80px;
+}
+
+.card-footer h6 {
+	color: white;
+	/* margin-left: 270px; */
+}
+
+.card-footer img {
+	width: 40px;
+	height: 40px;
+}
+
+.card-footer p {
+	color: white;
+	margin-top: 110px;
+}
+
+.space {
+	margin-left: 5px;
+}
+/* footer end */
