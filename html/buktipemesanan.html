@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../css/buktipemesanan.css" />
+		<title>Bukti Pemesanan</title>
+	</head>
+	<body>
+    		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="home.html"><img src="../img/smkn2.png" alt="SMKN 2 Banjarmasin" title="SMKN 2 Banjarmasin">E-Reservation</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="#navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item active">
+							<a class="nav-link active" href="home.html">Home</span></a>
+						</li>
+                        <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							  Seputar Ruangan
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							  <li><a class="dropdown-item" href="ruangan.html">Ruangan</a></li>
+							  <li><a class="dropdown-item" href="pesananmember.html">Ruangan yang Dipesan</a></li>
+							</ul>
+						<li class="nav-item active">
+							<a class="nav-link active" href="aboutpage.html">Tentang Kami</a>
+						</li>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="rounded-circle" src="../img/person-circle.svg" alt="user photo">
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="profile.html"><span><i class="fa fa-user-circle" aria-hidden="true"></i></span> Profil</a></li>
+                                <li><a class="dropdown-item" href="landingpage.html"><span><i class="fa fa-sign-out" aria-hidden="true"></i></span> Log Out</a></li>
+							  </ul>
+                        </li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- navbar end -->
+
+        <!-- content -->
+
+<div class="container">
+    <div class="card">
+        <div class="row">
+            <div class="col-lg-10 col-md-10 col-sm-10">
+                <h5><b>Bukti Pemesanan</b></h5>
+                <p>
+                    Nomor  : <span class="text-orange">Nomor Pemesan</span>
+                    <br>
+                    Tanggal : <span class="text-orange">Tanggal Pemesanan</span>
+                </p>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="../img/smkn2.png" alt="" class="img-invoice">
+            </div>
+        </div>
+        <br><br>
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5 class="bg-lightgrey"><b>Detail Pembayaran</b></h5>
+            <p>Pembelian Melalui : <span class="text-orange">COD</span></p>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h5 class="bg-lightgrey"><b>Data Pemesan</b></h5>
+                <p>
+                    Nama   : <span class="text-orange">Nama Pemesan</span>
+                    <br>
+                    Email    : <span class="text-orange">Email Pemesan</span>
+                    <br>
+                    No. Telp : <span class="text-orange">Nomor Telepon Pemesan</span>
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h5 class="bg-lightgrey"><b>Detail Perusahaan</b></h5>
+                <p>
+                    Nama  : SMKN 2 Banjarmasin
+                    <br>
+                    Alamat : Jalan Brigjend Hasan Basri No.6, Sungai Miai, Kec. Banjarmasin Utara, Kota Banjarmasin, Kalimantan Selatan 70124
+                </p>
+            </div>
+        </div>
+
+        <!-- <div class="row bg-lightgrey">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h5><b>Data Pemesan</b></h5>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <h5><b>Detail perusahaan</b></h5>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <p>
+                    Nama   : <span class="text-orange">Nama Pemesan</span>
+                    <br>
+                    Email    : <span class="text-orange">Email Pemesan</span>
+                    <br>
+                    No. Telp : <span class="text-orange">Nomor Telepon Pemesan</span>
+                </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <p>
+                    Nama  : SMKN 2 Banjarmasin
+                    <br>
+                    Alamat : Jalan Brigjend Hasan Basri No.6, Sungai Miai, Kec. Banjarmasin Utara, Kota Banjarmasin, Kalimantan Selatan 70124
+                </p>
+            </div>
+        </div> -->
+        <br><br>
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h5 class="bg-lightgrey">Data Penyewaan</h5>
+                <p>
+                    Nama Ruangan               : <span class="text-orange">Nama Ruangan</span>
+                    <br>
+                    Tanggal/Waktu Check-in  : <span class="text-orange">Waktu Check-in</span>
+                    <br>
+                    Tanggal/Waktu Check-out : <span class="text-orange">Waktu  Check-out</span>
+                </p>
+            </div>
+            <br><br><br><br>
+
+            <div class="col-lg-3 col-md-3 col-sm-5 offset-lg-9 offset-sm-7">
+                <small class="text-black">*Syarat dan Ketentuan Berlaku</small>
+            </div>
+
+            <div class="col-lg-1 col-md-1 col-sm-5 offset-lg-10 offset-sm-7">
+                <img src="../img/smkn2.png" alt="" class="img-stempel">
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+</div>
+
+        <!-- content end -->
+
+        <!-- jQuery -->
+		<script src="../js/jquery-3.6.0.min.js"></script>
+		<script src="../js/popper.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<!-- jQuery end -->
+
+</body>
+</html>

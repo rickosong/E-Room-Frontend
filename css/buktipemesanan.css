@@ -1,0 +1,78 @@
+@font-face /*perintah untuk memanggil font eksternal*/ {
+	font-family: "poppins"; /*memberikan nama bebas untuk font*/
+	src: url("../font/poppins/Poppins-Regular.ttf"); /*memanggil file font eksternalnya di folder nexa*/
+}
+
+@font-face /*perintah untuk memanggil font eksternal*/ {
+	font-family: "poppins-bold"; /*memberikan nama bebas untuk font*/
+	src: url("../font/poppins/Poppins-Bold.ttf"); /*memanggil file font eksternalnya di folder nexa*/
+}
+
+body {
+	background-color: whitesmoke;
+	font-family: poppins;
+	margin-top: 120px;
+}
+
+.navbar {
+	background-color: #ff5722;
+}
+
+.navbar-brand img {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+li.nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+li.nav-item:hover {
+	transition: 0.5s;
+	font-size: 17px;
+}
+
+a.navbar-brand:hover {
+	transition: 0.5s;
+	text-shadow: 3px 2px 1px white;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+a img {
+	width: 35px;
+	height: 35px;
+	margin-top: -5px;
+}
+/* navbar enda */
+
+/* content */
+.card {
+	padding: 20px;
+	border: black solid 1px;
+}
+
+.bg-lightgrey {
+	background-color: #f7f7f7;
+}
+
+.text-orange {
+	color: #ff5722;
+}
+
+.img-invoice {
+	height: 100px;
+	width: 100px;
+}
+
+.img-stempel {
+	height: 120px;
+	width: 120px;
+}
+/* content end */
